@@ -1,0 +1,44 @@
+@import './variable';
+
+.disc {
+    list-style: none;
+}
+.hide {
+    display: none;
+}
+
+.mimg {
+    width: 100%;
+}
+i {
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+}
+.active {
+    background-color: #356c07 !important;
+    color: #fff !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.none {
+    border: none;
+    background: none;
+}
+#fff {
+    background: $colorGray;
+}
+
+#colorBag {
+    color: $colorGreen;
+}
+
+#colorBg {
+    background: $colorGreen2;
+    color: #fff;
+}
+
+#SecondaryColor {
+    color: $colorGreen;
+}
